@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:kubuntu-ppa/backports
 sudo apt update && sudo apt full-upgrade -y
 
 function install {
@@ -15,7 +14,6 @@ function install {
 }
 
 # Basics
-install awscli
 install chromium-browser
 install curl
 install dialog
@@ -30,12 +28,4 @@ install tmux
 install tree
 install vim
 install xclip
-
-# Image processing
-install gimp
-install jpegoptim
-install optipng
-
-# Fun stuff
-install figlet
-install lolcat
+install neovim

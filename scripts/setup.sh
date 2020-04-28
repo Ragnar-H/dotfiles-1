@@ -10,7 +10,4 @@ for f in programs/*.sh; do bash "$f" -H; done
 sudo apt upgrade -y
 
 # See our bash changes
-source ~/.bashrc
-
-# Fun hello
-figlet "Hello!" | lolcat
+source ~/.zshrc
